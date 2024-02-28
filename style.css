@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    height: 50px;
+}
+
+.navbar .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.navbar .logo h1 {
+    color: red;
+}
+
+.navbar .logo .item {
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar .logo .item a {
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar .logo .item a:hover {
+    margin-top: -10px;
+}
+
+.navbar .icon {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar .icon i {
+    cursor: pointer;
+}
+
+.hero-sec {
+    background-image: url("https://www.wilson.com/sites/default/files/styles/none/public/FR_Innovation_3.jpg?");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.blog-sec{
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.blog-sec .txt p{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.blog-sec .main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    column-gap: 50px;
+}
+
+.blog-sec .main-box .box{
+    width: min-content;
+    overflow: hidden;
+}
+
+.blog-sec .main-box .box img{
+    height: 375px;
+    width: 375px;
+}
+
+.blog-sec .main-box .box button{
+    padding: 15px 35px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    margin: 20px 116px;
+}
+
+.blog-sec .main-box .box button:hover{
+    background-color: black;
+    color: white;
+}
+
+.shop-sec{
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.shop-sec .left {
+    overflow: hidden;
+}
+
+.shop-sec .left img{
+    width: 50vw;
+    height: 55vh;
+}
+
+.shop-sec .left .txt{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -18%;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.shop-sec .left .txt button{
+    width: fit-content;
+    padding: 15px 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    cursor: pointer;
+}
+
+.shop-sec .left .txt button:hover{
+    background-color: white;
+    color: black;
+}
+
+.shop-sec .right img{
+    width: 46vw;
+    height: 55vh;
+}
+
+.shop{
+    height: 250px;
+    background-image: url("https://images.unsplash.com/photo-1545091741-2231068f3478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BvJTIwYmxhY2slMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    row-gap: 20px;
+}
+
+.shop p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.shop .btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.shop .btn button{
+    padding: 15px 35px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.shop .btn .btn2{
+    background-color: white;
+    color: black;
+}
+
+.shop .btn .btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.shop .btn .btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.shop-sport{
+    height: auto;
+    padding: 10px 50px;
+    padding-top: 20px;
+}
+
+.shop-sport .txt{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-sport .main-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.shop-sport .main-box .box{
+    width: 250px;
+    margin: 20px;
+    height: 245px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.shop-sport .main-box .box p{
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.shop-sport .main-box .box p:hover{
+    color: red;
+}
+
+.shop-sport .main-box .box img{
+    height: 200px;
+}
+
+
+.login-sec{
+    height: 250px;
+    background-image: url("https://images.unsplash.com/photo-1545091741-2231068f3478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BvJTIwYmxhY2slMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    row-gap: 20px;
+}
+
+.login-sec p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.login-sec .btn {
+    display: flex;
+    column-gap: 20px;
+}
+
+.login-sec .btn button{
+    padding: 15px 35px;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.login-sec .btn .btn2{
+    background-color: white;
+    color: black;
+}
+
+.login-sec .btn .btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.login-sec .btn .btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.foot-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 300px;
+    background-color: white;
+  }
+  
+  .foot-sec .main-box {
+    display: flex;
+    column-gap: 130px;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  .foot-sec .main-box .box1 h1 {
+    color: black;
+  }
+  
+  .foot-sec .main-box .box1 .social {
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box1 i {
+    color: black;
+    font-size: 20px;
+    background: whitesmoke;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .foot-sec .main-box .box2 h1 {
+    color:black;
+  }
+  
+  .foot-sec .main-box .box2 i {
+    color: black;
+  }
+  
+  .foot-sec .main-box .box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foot-sec .main-box .box2 .btn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 20px;
+  }
+  
+  .foot-sec .main-box .box2 .btn a {
+    text-decoration: none;
+    color: rgb(141, 137, 137);
+  }
+  
+  .foot-sec .main-box .box4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box4 .add {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .foot-sec .main-box .box4 h1 {
+    color: black;
+  }
+  
+  .foot-sec .main-box .box4 .add p {
+    color: rgb(141, 137, 137);
+  }
+  
+  .foot-sec .copy {
+    margin-top: 57px;
+    /* background: red; */
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: -30px;
+  }
+  
+  .foot-sec .copy p{
+    color: black;
+  }
+  
+  .foot-sec .copy p span{
+    color: rebeccapurple;
+  } 
